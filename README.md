@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎶 Vinu Music Studio (AI Music Suite)
 
 **The Ultimate Local-First AI Music Production Suite.**
@@ -122,3 +123,6 @@ Once both servers are running:
 ---
 
 *Verified & Updated for 2026 Release.*
+=======
+# AI-Studio
+>>>>>>> 81174361cad5bbd27f9eb32312171fe04e63472a
