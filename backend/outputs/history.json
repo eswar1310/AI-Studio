@@ -1,0 +1,100 @@
+[
+  {
+    "id": "0d4109cb6b25",
+    "task_id": "0d4109cb6b25",
+    "prompt": "dog barking loudly, realistic outdoor environment, medium distance",
+    "mode": "sfx",
+    "model": "audioldm2p",
+    "seed": 917053559,
+    "duration": 5,
+    "created_at": "2026-01-08T12:33:53.052080",
+    "files": {
+      "wav": "/api/download/0d4109cb6b25/fc52b4dab3c34f84888df195e81bc2da.wav",
+      "mp3": "/api/download/0d4109cb6b25/audio.mp3"
+    }
+  },
+  {
+    "id": "db77bb6b202c",
+    "task_id": "db77bb6b202c",
+    "prompt": "add flute ",
+    "mode": "music",
+    "model": "facebook/musicgen-melody",
+    "seed": 1226207447,
+    "duration": 5,
+    "created_at": "2026-01-08T10:57:46.252186",
+    "files": {
+      "wav": "/api/download/db77bb6b202c/musicgen_20260108_162746.wav",
+      "mp3": "/api/download/db77bb6b202c/audio.mp3"
+    }
+  },
+  {
+    "id": "75277f3b4a88",
+    "task_id": "75277f3b4a88",
+    "prompt": "flute ",
+    "mode": "music",
+    "model": "facebook/musicgen-melody",
+    "seed": 1534243596,
+    "duration": 5,
+    "created_at": "2026-01-08T10:33:17.190407",
+    "files": {
+      "wav": "/api/download/75277f3b4a88/musicgen_20260108_160316.wav",
+      "mp3": "/api/download/75277f3b4a88/audio.mp3"
+    }
+  },
+  {
+    "id": "1b08ed028b25",
+    "task_id": "1b08ed028b25",
+    "prompt": "test beat",
+    "mode": "music",
+    "model": "facebook/musicgen-small",
+    "seed": 1199071092,
+    "duration": 10,
+    "created_at": "2026-01-08T09:38:24.481288",
+    "files": {
+      "wav": "/api/download/1b08ed028b25/musicgen_20260108_150823.wav",
+      "mp3": "/api/download/1b08ed028b25/audio.mp3"
+    }
+  },
+  {
+    "id": "5e067ffc4447",
+    "task_id": "5e067ffc4447",
+    "prompt": "add the drums and guitar ",
+    "mode": "music",
+    "model": "facebook/musicgen-melody",
+    "seed": 23522931,
+    "duration": 7,
+    "created_at": "2026-01-08T07:41:08.759912",
+    "files": {
+      "wav": "/api/download/5e067ffc4447/musicgen_20260108_131108.wav",
+      "mp3": "/api/download/5e067ffc4447/audio.mp3"
+    }
+  },
+  {
+    "id": "59cab3de6c5c",
+    "task_id": "59cab3de6c5c",
+    "prompt": "add piano ",
+    "mode": "music",
+    "model": "facebook/musicgen-melody",
+    "seed": 1159139284,
+    "duration": 6,
+    "created_at": "2026-01-08T07:31:50.303113",
+    "files": {
+      "wav": "/api/download/59cab3de6c5c/musicgen_20260108_130150.wav",
+      "mp3": "/api/download/59cab3de6c5c/audio.mp3"
+    }
+  },
+  {
+    "id": "aa609c57c383",
+    "task_id": "aa609c57c383",
+    "prompt": "Rock music ",
+    "mode": "music",
+    "model": "facebook/musicgen-small",
+    "seed": 1740973395,
+    "duration": 10,
+    "created_at": "2026-01-08T06:50:08.439110",
+    "files": {
+      "wav": "/api/download/aa609c57c383/musicgen_20260108_122008.wav",
+      "mp3": "/api/download/aa609c57c383/audio.mp3"
+    }
+  }
+]
