@@ -1,0 +1,5 @@
+// Clear localStorage to see new track colors
+// Run this in browser console:
+localStorage.removeItem('aimusic.studio.tracks');
+localStorage.removeItem('aimusic.studio.assets');
+// Then refresh the page

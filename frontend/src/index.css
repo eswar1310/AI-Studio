@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  /* Light fallback */
+  color: #111827;
+}
+
+.dark body {
+  background-color: #0d0d12;
+  color: #ffffff;
+}
+
+/* Subtle grid pattern for pro feel */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(circle at 1px 1px, currentColor 0.05, transparent 0);
+  background-size: 24px 24px;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Ensure drawer overlays content */
+div[data-drawer] {
+  z-index: 50;
+}
+
+/* Fix pointer events for glass backgrounds */
+.bg-white\/10,
+.backdrop-blur-xl,
+.backdrop-blur-2xl {
+  pointer-events: auto !important;
+}
+
+/* Glassmorphism & Premium UI Tokens */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.vinu-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.vinu-glow::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(234, 88, 12, 0.2) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.vinu-glow:hover::after {
+  opacity: 1;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 5px rgba(234, 88, 12, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(234, 88, 12, 0.4);
+  }
+
+  100% {
+    box-shadow: 0 0 5px rgba(234, 88, 12, 0.2);
+  }
+}
+
+@keyframes pulse-glow-blue {
+  0% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+  }
+
+  100% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.2);
+  }
+}
+
+.glow-orange {
+  animation: pulse-glow 3s infinite;
+}
+
+.glow-blue {
+  animation: pulse-glow-blue 3s infinite;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
